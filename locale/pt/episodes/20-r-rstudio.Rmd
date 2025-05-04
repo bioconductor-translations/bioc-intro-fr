@@ -6,6 +6,7 @@ exercises: 0
 ---
 
 ```{r, include=FALSE}
+
 ```
 
 ::::::::::::::::::::::::::::::::::::::: objectives
@@ -116,7 +117,7 @@ your data.
 Thousands of people use R daily. Muitos deles estão dispostos a ajudá-lo
 através de listas de email e sites como Stack
 Overflow, ou na [comunidade RStudio](https://community.rstudio.com/). Essas amplas comunidades de usuários
-se estendem a áreas especializadas como a bioinformática. Um desses subconjuntos da comunidade R é o [Bioconductor](https://bioconductor.org/), um projeto científico para análise e compreensão "de dados biológicos atuais e emergentes Esta oficina foi desenvolvida por membros da comunidade Biocondutor; para mais informações sobre Bioconductor, por favor veja a oficina complementar ["O Projeto Biocondutor"](https://carpentries-incubator.github.io/bioc-project/).
+se estendem a áreas especializadas como a bioinformática. Um desses subconjuntos da comunidade R é o [Bioconductor](https://bioconductor.org/), um projeto científico para análise e compreensão "de dados biológicos atuais e emergentes Esta oficina foi desenvolvida por membros da comunidade Biocondutor; para mais informações sobre Bioconductor, por favor veja a oficina complementar ["O Projeto Biocondutor"](https://carpentries-incubator.github.io/bioc-project/). Esta oficina foi desenvolvida por membros da comunidade Biocondutor; para mais informações sobre Bioconductor, por favor veja a oficina complementar ["O Projeto Biocondutor"](https://carpentries-incubator.github.io/bioc-project/).
 
 ### Not only is R free, but it is also open-source and cross-platform
 
