@@ -6,6 +6,7 @@ exercises: 45
 ---
 
 ```{r, include=FALSE}
+
 ```
 
 ::::::::::::::::::::::::::::::::::::::: objectives
@@ -30,7 +31,7 @@ exercises: 45
 library("tidyverse")
 ```
 
-バイオインフォマティクスのデータはしばしば複雑です。  To deal with this,
+バイオインフォマティクスのデータはしばしば複雑です。  バイオインフォマティクスのデータはしばしば複雑です。  To deal with this,
 developers define specialised data containers (termed classes) that
 match the properties of the data they need to handle.
 
