@@ -8,10 +8,13 @@ title: セットアップ
 
 ### RとRStudio
 
-- RとRStudioは別々にダウンロード、インストールする。 R is the
+- RとRStudioは別々にダウンロード、インストールする。 RとRStudioは別々にダウンロード、インストールする。 R is the
   underlying statistical computing environment, but using R alone is
   no fun. RStudio is a graphical integrated development environment
   (IDE) that makes using R much easier and more interactive. RStudioをインストールする前に、Rをインストールしてください。 両方の
+  プログラムをインストールした後、
+  RStudio 内にいくつかの特定の R パッケージをインストールする必要があります。 Follow the instructions below for your operating system,
+  and then follow the instructions to install packages. 両方の
   プログラムをインストールした後、
   RStudio 内にいくつかの特定の R パッケージをインストールする必要があります。 Follow the instructions below for your operating system,
   and then follow the instructions to install packages.
