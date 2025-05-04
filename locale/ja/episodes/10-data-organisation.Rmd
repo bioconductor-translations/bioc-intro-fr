@@ -6,6 +6,7 @@ exercises: 30
 ---
 
 ```{r, include=FALSE}
+
 ```
 
 ::::::::::::::::::::::::::::::::::::::: objectives
@@ -79,7 +80,7 @@ published by O'Reilly.
 
 Many spreadsheet programs are available. Since most participants
 utilise Excel as their primary spreadsheet program, this lesson will
-make use of Excel examples. で使用できる表計算プログラムは LibreOffice です。 Commands may differ a bit between programs,
+make use of Excel examples. で使用できる表計算プログラムは LibreOffice です。 で使用できる表計算プログラムは LibreOffice です。 Commands may differ a bit between programs,
 but the general idea is the same.
 
 Spreadsheet programs encompass a lot of the things we need to be able
