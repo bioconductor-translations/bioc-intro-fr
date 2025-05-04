@@ -2,7 +2,7 @@
 
 [![créez un compte Slack Account auprès de nous](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
 
-## Contributions
+## Contributing
 
 Toutes les contributions visant à améliorer la leçon sont les bienvenues! Les responsables de la maintenance feront de leur mieux pour vous aider si vous avez des questions, des préoccupations ou si vous rencontrez des difficultés en cours de route.
 
@@ -10,49 +10,52 @@ Nous vous invitons à vous familiariser avec notre guide de contribution et à c
 
 Veuillez consulter la liste actuelle des [issues][FIXME] pour les idées de contribution à ce dépôt. Pour apporter votre contribution, nous utilisons le flux. Pour apporter votre contribution, utilisez GitHub, qui est bien expliqué dans le chapitre [Contribuer à un projet dans Pro Git par Scott Chacon.].
 
-Recherchez l'étiquette "bonne première question/problème".  Cela indique que la responsable accueillera favorablement une demande de répondre a la question ou problème.
+Recherchez l'étiquette "bonne première question/problème".  This
+indicates that the maintainers will welcome a pull request fixing this
+issue.
 
 ## Liens utiles
 
 - Si vous développez pour la première fois du matériel pédagogique selon nos principes de conception, nous vous invitons à lire le Manuel de développement des programmes d'études de Carpentries.
 - Consultez le site web de l'exemple de leçon pour en savoir plus sur l'utilisation du modèle de leçon.
 
-## Equipe leçon
+## Lesson team
 
-Cette leçon a été développée et est actuellement maintenue par
+This lesson has been developed and is current maintained by
 
-- Laurent Gatto (responsable de la maintenance)
+- Laurent Gatto (maintainer)
 - Charlotte Soneson
 - Jenny Drnevich
 - Robert Castelo
 - Kevin Rue-Albert
 
-Nous aimerions également remercier les contributions de:
+We would also like to acknowledge the contributions of:
 
-- Oliver Crook, Sarah Kaspar, Nick Hirschmueller, Lisa Breckels and Maria Doyle pour leurs contributions le workshop d'introduction à Bioconductor à Heidelberg, ayant fait partie de EuroBioc2021 |> 2022.
-- Axelle Loriot, Marco Chiapelle, Manon Martin and Toby Hodges pour leurs contributions variées et discussions.
-- lmsimp, alorot, manonmartin, mchiapello, stavares843, JennyZadeh, csdaw, ninja-1337, fursham-h, lagerratrobe, fmichonneau, federicomarini, tobyhodges pour les _pull requests_
+- Oliver Crook, Sarah Kaspar, Nick Hirschmueller, Lisa Breckels and Maria Doyle for their contributions during the Bioconductor introduction workshop in Heidelberg, as part of EuroBioc2021 |> 2022.
+- Axelle Loriot, Marco Chiapelle, Manon Martin and Toby Hodges for various contributions and discussions.
+- lmsimp, alorot, manonmartin, mchiapello, stavares843, JennyZadeh, csdaw, ninja-1337, fursham-h, lagerratrobe, fmichonneau, federicomarini, tobyhodges for pull requests.
 
-Si vous avez apporté une contribution et nous vous avons oublié, toutes nos excuses, et n'hésitez pas à vous ajouter via a _PR_.
+If we have contributed but we missed you, apologies, and feel free to add yourself with a PR.
 
-## Auteurs
+## Authors
 
-Une liste de contributeurs à la leçon peut être trouvée dans [AUTHORS](AUTHORS)
+A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)
 
 ## Citation
 
-Pour citer la présente leçon, veuillez consulter [CITATION](CITATION)
+To cite this lesson, please consult with [CITATION](CITATION)
 
 [lesson-example]: https://carpentries.github.io/lesson-example
 [cdh]: https://cdh.carpentries.org
 
-## Tester en local
+## Testing locally
 
-Pour tester en local, exécutez l'instruction suivante, dans le répertoire des leçons:
+To test locally, run the following in the lessons directory:
 
 ```r
 sandpaper::serve()
 ```
 
-Pour plus de détails, consultez les [instructions d'installation du _workbench_](https://carpentries.github.io/workbench/#installation).
+For more details, see the [workbench installation
+instructions](https://carpentries.github.io/workbench/#installation].
 
