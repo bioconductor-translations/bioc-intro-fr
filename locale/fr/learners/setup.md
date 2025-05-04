@@ -38,25 +38,27 @@ title: Setup
 
 :::::::::::::::  solution
 
-## Si vous n'avez pas encore installé R et RStudio
+## If you don't have R and RStudio installed
 
-- Téléchargez R depuis le [site Web CRAN](https://cran.r-project.org/bin/windows/base/release.htm).
+- Download R from
+  the [CRAN website](https://cran.r-project.org/bin/windows/base/release.htm).
 
-- Exécutez le fichier « .exe » qui vient d’être téléchargé
+- Run the `.exe` file that was just downloaded
 
-- Accédez à la [page de téléchargement de RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+- Go to the [RStudio download page](https://www.rstudio.com/products/rstudio/download/#download)
 
 - Under _All Installers_ select **RStudio xxxx.yy.zz-uuu.exe - Windows 10/11** (where x, y, z, and u represent version numbers)
 
-- Double-cliquez sur le fichier pour l'installer
+- Double click the file to install it
 
-- Une fois installé, ouvrez RStudio pour vous assurer qu'il fonctionne et que vous n'obtenez aucun message d'erreur
+- Once it's installed, open RStudio to make sure it works and you don't get any
+  error messages
 
 - Suivez les étapes décrites dans les instructions [pour tout le monde](#pour-tout-le-monde) en bas de cette page.
 
 :::::::::::::::::::::::::
 
-### Vous utilisez macOS
+### You are running macOS
 
 <br>
 
@@ -67,7 +69,11 @@ title: Setup
 - Ouvrez RStudio et cliquez sur « Aide » > « Rechercher les mises à jour ». Si une nouvelle version est
   disponible, quittez RStudio et téléchargez la dernière version de RStudio.
 
-- Pour vérifier quelle version de R vous utilisez, démarrez RStudio et la première chose qui apparaît dans la console indique la version de R que vous exécutez. Alternativement, vous pouvez taper `sessionInfo()`, qui affichera également quelle version de R est installée. Allez sur le [site Web de CRAN](https://cran.r-project.org/bin/macosx/) et vérifiez si une version plus récente est disponible. Si c'est le cas, veuillez le télécharger et l'installer.
+- To check the version of R you are using, start RStudio and the first thing
+  that appears on the terminal indicates the version of R you are running. Alternatively, you can type `sessionInfo()`, which will
+  also display which version of R you are running. Go on
+  the [CRAN website](https://cran.r-project.org/bin/macosx/) and check
+  whether a more recent version is available. Si c'est le cas, veuillez le télécharger et l'installer.
 
 - Suivez les étapes décrites dans les instructions [pour tout le monde](#pour-tout-le-monde) en bas de cette page.
 
@@ -75,57 +81,67 @@ title: Setup
 
 :::::::::::::::  solution
 
-## Si vous n'avez pas encore installé R et RStudio
+## If you don't have R and RStudio installed
 
-- Téléchargez R depuis le [site Web CRAN](https://cran.r-project.org/bin/macosx/).
+- Download R from
+  the [CRAN website](https://cran.r-project.org/bin/macosx/).
 
-- Sélectionnez le fichier « .pkg » avec la dernière version de R
+- Select the `.pkg` file for the latest R version
 
-- Double-cliquez sur le fichier téléchargé pour l'installer
+- Double click on the downloaded file to install R
 
-- Ça peut aussi être utile d'installer [XQuartz](https://www.xquartz.org/) (qui est nécessaire pour certains _packages_)
+- It is also a good idea to install [XQuartz](https://www.xquartz.org/) (needed
+  by some packages)
 
-- Accédez à la [page de téléchargement de RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+- Go to the [RStudio download page](https://www.rstudio.com/products/rstudio/download/#download)
 
 - Under _All Installers_ select **RStudio xxxx.yy.zz-uuu.dmg - macOS 10.15+** (where x, y, z, and u represent version numbers)
 
-- Double-cliquez sur le fichier pour l'installer
+- Double click the file to install RStudio
 
-- Une fois installé, ouvrez RStudio pour vous assurer qu'il fonctionne et que vous n'obtenez aucun message d'erreur.
+- Once it's installed, open RStudio to make sure it works and you don't get any
+  error messages.
 
 - Suivez les étapes décrites dans les instructions [pour tout le monde](#pour-tout-le-monde) en bas de cette page.
 
 :::::::::::::::::::::::::
 
-### Vous utilisez Linux
+### You are running Linux
 
 <br>
 
 :::::::::::::::  solution
 
-## Installez R à l'aide de votre gestionnaire de paquets et de RStudio
+## Install R using your package manager and RStudio
 
-- Suivez les instructions pour votre distribution
-  sur [CRAN](https://cloud.r-project.org/bin/linux), elles fournissent des informations pour obtenir la version la plus récente de R pour la plupart des  distributions Linux. Pour la plupart des distributions, vous pourriez utiliser votre gestionnaire de paquets (par exemple, pour Debian/Ubuntu, exécutez
-  `sudo apt-get install r-base`, et pour Fedora `sudo yum install R`), mais nous
-  ne recommandons pas cette approche car les versions fournies par ces gestionnaires sont généralement obsolètes. Dans tous les cas, assurez-vous d'avoir au moins R 4.2.0.
+- Follow the instructions for your distribution
+  from [CRAN](https://cloud.r-project.org/bin/linux), they provide information
+  to get the most recent version of R for common distributions. For most
+  distributions, you could use your package manager (e.g., for Debian/Ubuntu run
+  `sudo apt-get install r-base`, and for Fedora `sudo yum install R`), but we
+  don't recommend this approach as the versions provided by this are
+  usually out of date. In any case, make sure you have at least R 4.2.0.
 - Go to the RStudio download
   page
 - Under _All Installers_ select the version that matches your distribution, and
   install it with your preferred method (e.g., with Debian/Ubuntu `sudo dpkg -i rstudio-xxxx.yy.zz-uuu-amd64.deb` at the terminal).
-- Une fois installé, ouvrez RStudio pour vous assurer qu'il fonctionne et que vous n'obtenez aucun message d'erreur.
-- Suivez maintenant les étapes dans les [instructions pour tout le monde](#for-everyone)
+- Once it's installed, open RStudio to make sure it works and you don't get any
+  error messages.
+- Follow the steps in the [instructions for everyone](#for-everyone)
 
 :::::::::::::::::::::::::
 
-### Pour tout le monde
+### For everyone
 
-Après avoir installé R et RStudio, vous devez installer quelques packages
-qui seront utilisés pendant l'atelier. Pendant le cours, nous verrons en détail comment installer des packages et les commandes ci-dessous. Pour l'instant, suivez simplement les instructions ci-dessous :
+After installing R and RStudio, you need to install a couple of
+packages that will be used during the workshop. We will also learn
+about package installation during the course to explain the following
+commands. For now, simply follow the instructions below:
 
-- Démarrez RStudio en double-cliquant sur l'icône puis tapez :
+- Start RStudio by double-clicking the icon and then type:
 
 ```r
 install.packages(c("BiocManager", "remotes"))
-BiocManager::install(c("tidyverse", "SummarizedExperiment", "hexbin", "patchwork", "gridExtra", "lubridate"))
+BiocManager::install(c("tidyverse", "SummarizedExperiment", "hexbin",
+                       "patchwork", "gridExtra", "lubridate"))
 ```
