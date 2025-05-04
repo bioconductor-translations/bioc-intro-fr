@@ -6,6 +6,7 @@ exercises: 30
 ---
 
 ```{r, include=FALSE}
+
 ```
 
 ::::::::::::::::::::::::::::::::::::::: objectives
@@ -70,6 +71,7 @@ published by O'Reilly.
 - Data analysis in spreadsheets usually requires a lot of manual
   work. Se você alterar um parâmetro ou efetuar uma análise com um
   novo conjunto de dados, normalmente terá de refazer tudo à mão. (Nós
+  sabemos que é posível criar macros, mas veja o próximo ponto) (Nós
   sabemos que é posível criar macros, mas veja o próximo ponto)
 
 - It is also difficult to track or reproduce statistical or plotting
