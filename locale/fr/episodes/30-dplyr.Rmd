@@ -615,14 +615,12 @@ rna_long <- rna_wide %>%
                  -gene)
 rna_long
 ```
-```
 
 Nous aurions également pu spécifier les colonnes à
 inclure. Quand il faut inclure un grand nombre de colonnes, et il est plus facile de spécifier ce qu'il faut rassembler que ce qu'il faut ignorer. Ici, la fonction `starts_with()` peut aider à récupérer des colonnes
 sans avoir à toutes les énumérer !
 Une autre possibilité serait d'utiliser l'opérateur `:` !
 
-```{r}
 ```{r}
 rna_wide %>%
     pivot_longer(names_to = "sample",
@@ -633,14 +631,12 @@ rna_wide %> %
                  valeurs_to = "expression",
                  GSM2545336:GSM2545380)
 ```
-```
 
 Notez que si nous avions des valeurs manquantes dans le format large, le `NA` serait
 inclus dans le nouveau format long.
 
 Souvenez-vous de notre précédent tibble fictif contenant des valeurs manquantes :
 
-```{r}
 ```{r}
 rna_with_missing_values
 
@@ -653,7 +649,6 @@ wide_with_NA %>%
     pivot_longer(names_to = "sample",
                  values_to = "expression",
                  -gene)
-```
 ```
 
 Passer à des formats larges et longs peut être un moyen utile d'équilibrer un ensemble de données afin que chaque réplique ait la même composition.
@@ -670,7 +665,6 @@ Utilisez ensuite la fonction `pivot_longer()` pour restaurer le tableau au forma
 ## Solution
 
 ```{r, answer=TRUE, purl=TRUE}
-```{r}
 rna1 <- rna %>%
 select(gene, mouse, expression) %>%
 pivot_wider(names_from = mouse, values_from = expression)
@@ -678,7 +672,6 @@ rna1
 
 rna1 %>%
 pivot_longer(names_to = "mouse_id", values_to = "counts", -gene)
-```
 ```
 
 :::::::::::::::::::::::::
