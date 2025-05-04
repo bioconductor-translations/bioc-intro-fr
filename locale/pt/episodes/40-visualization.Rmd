@@ -67,6 +67,8 @@ e propriedades visuais gerais. A base teórica que suporta
 o `ggplot2` é a _Gramática de Gráficos_ (@Wilkinson:2005). Utilizando esta abordagem, apenas necessitamos de alterações mínimas se os dados subjacentes mudarem ou
 se decidirmos mudar de um gráfico de barras para um gráfico de dispersão. Isto ajuda a
 criar gráficos com qualidade de publicação com o mínimo de ajustes
+e afinações. Isto ajuda a
+criar gráficos com qualidade de publicação com o mínimo de ajustes
 e afinações.
 
 Existe um livro sobre `ggplot2` (@ggplot2book) que fornece uma boa visão geral, mas está desatualizado. A 3ª edição está a ser preparada e será
@@ -83,7 +85,7 @@ personalização das parcelas.
 
 > The idea behind the Grammar of Graphics it is that you can build every
 > graph from the same 3 components: (1) a data set, (2) a coordinate system,
-> and (3) geoms — i.e. visual marks that represent data points \[^three\\_comp\\_ggplot2]
+> and (3) geoms — i.e. visual marks that represent data points \\[^three\\\_comp\\\_ggplot2]
 
 [^three_comp_ggplot2]: Source: [Data Visualization Cheat Sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf).
 
@@ -114,10 +116,11 @@ ggplot(data = rna, mapping = aes(x = expression))
  data in the plot (points, lines, bars). `ggplot2` offers many
  different geoms; we will use some common ones today, including:
 
-   \* `geom_point()` for scatter plots, dot plots, etc.
-   \* `geom_histogram()` for histograms
-   \* `geom_boxplot()` for, well, boxplots!
-   \* `geom_line()` for trend lines, time series, etc.
+ ```
+ \* `geom_point()` for scatter plots, dot plots, etc.
+    \* `geom_histogram()` for histograms
+    \* `geom_boxplot()` for, well, boxplots! \* `geom_line()` for trend lines, time series, etc.
+ ```
 
 To add a geom(etry) to the plot use the `+` operator. Let's use
 `geom_histogram()` first:
@@ -818,7 +821,7 @@ for inspiration. Here are some ideas:
  `scale_`)
 - Try using a different color palette or manually specifying the
  colors for the lines (see
- [http://www.cookbook-r.com/Graphs/Colors\_(ggplot2)/](https://www.cookbook-r.com/Graphs/Colors_\\(ggplot2\\)/)).
+ [http://www.cookbook-r.com/Graphs/Colors\_(ggplot2)/](https://www.cookbook-r.com/Graphs/Colors_\\\(ggplot2\\\)/)).
 
 :::::::::::::::  solution
 
